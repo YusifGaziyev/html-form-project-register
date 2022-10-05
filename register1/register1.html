@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Register</h1>
+        </div>
+        <hr>
+        <div class="register">
+            <form action="">
+                <div class="username2">
+                    <label for="username">Username:</label>
+                    <br>
+                    <input type="text" id="username" pattern="[a-z0-9._-]{6,32}" placeholder="e.g. john_2001" title="Username must be at least 6 characters." required autofocus>
+                </div>
+                <br>
+                <div class="pass2">
+                    <label for="pass">Password:</label>
+                    <br>
+                    <input type="password" id="pass" pattern="[A-Za-z0-9._-]{8,64}" placeholder="e.g. arsenal_1886.john" title="Password must be at least 8 characters." required>
+                </div>
+                <br>
+                <div class="mail2">
+                    <label for="mail">Email:</label>
+                    <br>
+                    <input type="email" id="mail" placeholder="e.g. example@gmail.com" title="You need to enter your e-mail address." required>
+                </div>
+                <br>
+                <div class="name2">
+                    <label for="">Name:</label>
+                    <br>
+                    <input type="text" id="name" pattern="[A-Za-z]{2,32}" placeholder="e.g. John" title="Entering numbers is prohibited.">
+                </div>
+                <br>
+                <div class="surname2">
+                    <label for="">Surname:</label>
+                    <br>
+                    <input type="text" id="surname" pattern="[A-Za-z]{2,48}" placeholder="e.g. Doe" title="Entering numbers is prohibited.">
+                </div>
+                <br>
+                <div class="birthday2">
+                    <label for="birthday">Date of birth:</label>
+                    <br>
+                    <input type="date" id="birthday" min="1947-01-01" max="2004-12-31" required>
+                </div>
+                <br>
+                <div class="gender2">
+                    <span>Gender:</span>
+                    <br>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Other</label>
+                </div>
+                <br>
+                <div class="hobbies2">
+                    <span>Hobbies:</span>
+                    <br>
+                    <input type="checkbox" id="book">
+                    <label for="book">Book</label>
+                    <br>
+                    <input type="checkbox" id="music">
+                    <label for="music">Music</label>
+                    <br>
+                    <input type="checkbox" id="sport">
+                    <label for="sport">Sport</label>
+                    <br>
+                    <input type="checkbox" id="picture">
+                    <label for="picture">Picture</label>
+                    <br>
+                    <input type="checkbox" id="other2">
+                    <label for="other2">Other</label>
+                </div>
+                <br>
+                <div class="country2">
+                    <label for="country">Country:</label>
+                    <br>
+                    <input type="text" id="country" pattern="[A-Za-z]{2,48}" placeholder="e.g. France" title="There should be no spaces when entering the country name."> 
+                </div>
+                <br>
+                <div class="city2">
+                    <label for="city">City:</label>
+                    <br>
+                    <input type="text" id="city" pattern="[A-Za-z]{2,64}" placeholder="e.g. Paris" title="When entering the city name, no spaces should be left.">
+                </div>
+                <br>
+                <div class="biography2">
+                    <label for="biography">Biography:</label>
+                    <br>
+                    <textarea id="biography" cols="30" rows="5" placeholder="e.g. I'm John."></textarea>
+                </div>
+                <br>
+                <div class="agreement2">
+                    <input type="checkbox" id="agreement">
+                    <label for="agreement">I have read and accept the agreement.</label>
+                </div>
+                <br>
+                <div class="button">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
